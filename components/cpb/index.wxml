@@ -1,0 +1,6 @@
+<!--components/cpb/index.wxml-->
+<text>components/cpb/index.wxml</text>
+
+<view>
+  {{cpbData}}
+</view>

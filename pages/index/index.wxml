@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view>页面内容pages/index/index.wxml</view>
+<view>组件内容<my-c /></view>
+
+<view class="btn-area">
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/constructor/index" >跳转到构造器页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/location/index" >跳转到location页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/lottie/index" >跳转到lottie页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/qs-demo/index" >跳转到qs-demo页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/cpa-cpb/index" >跳转到cpa-cpb页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/computed-watch/index" >跳转到computed-watch页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/websocket/index" >跳转到websocket页面</button></view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/websocket-v1/index" >跳转到websocket-v1页面</button></view>
+
+  <view style="text-align: center;">--------------next-----------------</view>
+  <view class="button-item"><button type="primary" bindtap="goUrl" data-url="/pages/">小程序性能优化</button></view>
+
+</view>

@@ -1,0 +1,10 @@
+<!--pages/lottie/index.wxml-->
+<text>pages/lottie/index.wxml</text>
+<view style="text-align: center;">
+
+  <canvas id="lottie_demo" type="2d" style="display: inline-block; width: 200px; height: 200px;" />
+  <!-- <button type="warn" bindtap="empty">设置为空</button> -->
+  <view style="margin-top:20rpx"><button type="primary" bindtap="init" style="width: 200px;">初始化</button></view>
+  <view style="margin-top:20rpx"><button type="primary" bindtap="play" style="width: 200px;">播放</button></view>
+  <view style="margin-top:20rpx"><button type="primary" bindtap="pause" style="width: 200px;">暂停</button></view>
+</view>

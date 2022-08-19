@@ -1,0 +1,7 @@
+<!--pages/constructor/index.wxml-->
+<view>
+  <text>pages/constructor/index.wxml</text>
+</view>
+<view>
+  <my-c />
+</view>

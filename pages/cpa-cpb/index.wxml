@@ -1,0 +1,14 @@
+<!--pages/cpa-cpb/index.wxml-->
+<text>pages/cpa-cpb/index.wxml</text>
+
+<view>
+  {{pageData}}
+</view>
+----------------------------------------------------
+<view>
+  <cpa bind:froma="renameb"/>
+</view>
+----------------------------------------------------
+<view>
+  <cpb class="cpb"/>
+</view>

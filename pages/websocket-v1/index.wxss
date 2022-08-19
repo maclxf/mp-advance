@@ -1,0 +1,12 @@
+/* pages/websocket-v1/index.wxss */
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.input {
+  border: 1px solid blue;
+  padding: 10rpx;
+  margin-top: 20rpx;
+}

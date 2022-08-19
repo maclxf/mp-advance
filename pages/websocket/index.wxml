@@ -1,0 +1,3 @@
+<!--pages/websocket/index.wxml-->
+<text>pages/websocket/index.wxml</text>
+<input type="text" bindchange="sendMessage"/>

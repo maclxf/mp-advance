@@ -1,0 +1,4 @@
+<!--components/cpa/index.wxml-->
+<text>components/cpa/index.wxml</text>
+
+<button type="primary" bind:tap="doRenameB">doRenameB</button>

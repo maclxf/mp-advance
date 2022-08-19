@@ -1,0 +1,13 @@
+<!--pages/location/index.wxml-->
+<text>pages/location/index.wxml</text>
+<view wx:if="{{showLocation}}" style="margin-top: 200rpx;">
+  
+  latitude: {{latitude}}
+  longitude: {{longitude}}
+
+  <button bindtap="openMap" type="primary"> 打开地图 </button>
+</view>
+<view wx:else>
+  <button wx:if="{{showSettingBtn}}" open-type="openSetting" bindopensetting="handler" type="primary"> 位置授权 </button>
+
+</view>

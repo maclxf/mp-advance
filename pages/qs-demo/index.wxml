@@ -1,0 +1,20 @@
+<!--pages/qs-demo/index.wxml-->
+<view class="origin-content">
+  {{queryUrl}}
+</view>
+
+<view>
+  <button type="primary" bindtap="toObject">toObject</button>
+</view>
+
+<view wx:if="{{qsChangeToObj}}">
+  <view>
+    qs.stringify:{{qsChangeToString}}
+    <button type="primary" bindtap="toqsString">toqsString</button>
+  </view>
+
+  <view>
+    json.stringify:{{jsonChangeToString}}
+    <button type="primary" bindtap="tojsonString">tojsonString</button>
+  </view>
+</view>

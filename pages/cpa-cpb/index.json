@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cpa": "/components/cpa/index",
+    "cpb": "/components/cpb/index"
+  }
+}

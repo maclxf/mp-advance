@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/constructor/index",
+    "pages/lottie/index",
+    "pages/location/index",
+    "pages/qs-demo/index",
+    "pages/cpa-cpb/index",
+    "pages/kbone/index",
+    "pages/computed-watch/index",
+    "pages/websocket/index",
+    "pages/websocket-v1/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序111位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

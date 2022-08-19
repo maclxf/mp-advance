@@ -1,0 +1,16 @@
+<!--pages/computed-watch/index.wxml-->
+<view>a：{{a}}</view>
+<view>b：{{b}}</view>
+<view>c：{{c}}</view>
+<view>sum：{{sum}}</view>
+<button type="primary" bindtap="doComputed">computed</button>
+---
+<view>d：{{d}}</view>
+<view>e：{{e}}</view>
+<view>difference：{{difference}}</view>
+<button type="primary" bindtap="doWatch">watch</button>
+---
+<view>d：{{d}}</view>
+<view>e：{{e}}</view>
+<view>difference：{{difference}}</view>
+<button type="primary" bindtap="doObserver">observer</button>
